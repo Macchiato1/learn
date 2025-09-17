@@ -50,3 +50,13 @@ $_ 获取上个命令最后一个参数
 nohup 忽略输出
 shell 中#用于取出变量的长度
 `echo {#name}
+
+- wc命令有 wc -l | wc - L ,其中-l 统计有多少行 ，-L 统计最长的行里元素的个数
+- expr 用于数据计算
+
+#统计字符串的长度 
+```
+for 循环写在一行
+for num in {1..100};do echo $num;done
+```
+
