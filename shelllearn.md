@@ -14,4 +14,15 @@ pstree 查看进程树
 - 全局配置文件 /etc/profile 、 /etc/bashrc ,且系统建议最好创建在 /etc/profile.d/,而非直接修改主文件，修改全局配置文件，影响素有登陆系统系统的用户
 
 ## 检查系统环境变量 （set **输出所有文件，包括全局变量、局部变量** ，env **只显示全局变量**，declare **输出所有变量**，export “显示和设置环境变量值” ）
+
 先输出全局配置文件中的变量
+
+## 撤销环境变量 
+- unset 变量名，删除变量或者函数
+
+```
+## 设置只读变量 readonly 
+readonly name = "gzh"
+name = "chaochao"
+-bash:name:只读变量
+```
