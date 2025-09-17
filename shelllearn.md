@@ -26,3 +26,5 @@ readonly name = "gzh"
 name = "chaochao"
 -bash:name:只读变量
 ```
+如何取到变量的名字 
+`  export |awk -F '[ :=]' '{print $3}' 中间是分隔符，$3表示第三列
